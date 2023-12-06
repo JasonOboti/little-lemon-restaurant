@@ -62,7 +62,7 @@ function Form() {
                     <span className="error-message">{errors.guests?.message}</span>
                 </div>
                 {/*</div>*/}
-                        
+
                 <div className="field">
                     <label htmlFor="date">Date & Time</label>
                     <input type="datetime-local" name="date" {...register("date")} />
